@@ -1,35 +1,49 @@
- <!DOCTYPE html>
- <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Page title</title>
- </head>
- <body>
-        <!-- body -->
-        <body style="background: linear-gradient(130deg, black, red); color: red; text-align: center">
-            <!-- Navigation link -->
-         <div style="text-align: center; background: linear-gradient(135deg, red, black); font-family: MBL Plex Mono, monospace; text-align: left; color: black; height: 130px; padding: 10px 20px; display: block; width: 300px; border-radius: 20px; font-size: 150%;">BR GRAPHICS
-         <br><br><br>
-         <a href="contact.html" style="font-size: 70%; color: white; margin: 15px">contact</a>
-         <a href="about.html" style="font-size: 70%; color: white; margin: 15px">about</a>
-         </div>
-         <!-- head -->
-        <h1 style="background-color: black; font-size: 20px; font-family: IBM Plex Mono, monospace; padding: 10px 20px; display: inline-block;">LOGIN</h1>
-         <br><br>
-         <!-- input -->
-         <input type="name" placeholder="Name...." style=" width: 250px; height: 5px; border-radius: 10px 30px; padding: 20px 20px;" required>
-         <br><br>
-        <input type="username" placeholder="Username...."style="width: 250px; height: 5px; border-radius: 10px 30px; padding: 20px 20px;" required>
-        <br><br>
-        <input type="Email" placeholder="Email...." style="width: 250px; height: 5px; border-radius: 10px 30px; padding: 20px 20px;" required>
-        <br><br>
-        <input type="Number" placeholder="Phone number...." style="width: 250px; height: 5px; border-radius: 10px 30px; padding: 20px 20px;" required>
-        <br><br>
-        <input type="password" placeholder="Password...." style="width: 250px; height: 5px; border-radius: 10px 30px; padding: 20px 20px;" required>
-        <br><br>
-        <!-- button -->
-        <button type="submit" style="background-color: black; width: 60px; height: 30px; color: red;">submit</button>
-        <br><br>
-        <a style="color: white;" href="#">forgot password?</a>
-     
- </body>
- </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR GRAPHICS</title>
+</head>
+<body bgcolor="black" text="red" align="center">
+    <!-- Navigation Bar -->
+    <div align="left" bgcolor="red">
+        <h2>BR GRAPHICS</h2>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- Login Section -->
+    <h1>LOGIN</h1>
+
+    <!-- Login Form -->
+    <form action="#" method="POST">
+        <p>
+            <label>Name:</label><br>
+            <input type="text" name="name" placeholder="Name..." required>
+        </p>
+        <p>
+            <label>Username:</label><br>
+            <input type="text" name="username" placeholder="Username..." required>
+        </p>
+        <p>
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="Email..." required>
+        </p>
+        <p>
+            <label>Phone Number:</label><br>
+            <input type="tel" name="phone" placeholder="Phone number..." required>
+        </p>
+        <p>
+            <label>Password:</label><br>
+            <input type="password" name="password" placeholder="Password..." required>
+        </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        <p>
+            <a href="#">Forgot Password?</a>
+        </p>
+    </form>
+</body>
+</html>
