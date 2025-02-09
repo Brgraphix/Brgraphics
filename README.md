@@ -4,7 +4,7 @@ Welcome to the official website of **BR Graphics**, designed using pure HTML. Th
 
 ## 🌐 Pages Included
 - **index.html** - The homepage of the website.
-- **login.html** - The login page for user authentication.
+- **Login.html** - The login page for user authentication.
 - **contact.html** - A contact page to reach out to us.
 - **about.html** - Information about BR Graphics.
 
